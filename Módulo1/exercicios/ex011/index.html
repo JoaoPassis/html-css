@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    
+    <p>Tente abrir esse documento em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+
+        <source media="(max-width:750px )" srcset="Imagens/foto-p1.png" type="image/png">
+
+<source media="(max-width:1050px )" srcset="Imagens/foto-m.png" type="image/png">
+
+<img src="Imagens/foto-p.png" alt="Imagem fléxivel">
+
+    </picture>
+
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+
+<audio preload="metadata" autoplay controls loop>
+ 
+<source src="midia/Riding - ALBIS.mp3" type="audio/mpeg">
+<source src="midia/Riding - ALBIS.ogg" type="audio/ogg">
+<source src="midia/Riding - ALBIS.wav" type="audio/wav">
+
+<p>Infelizmente seu navegador não consegue reproduzir audio. </p>
+<a href="midia/Riding - ALBIS.mp3"> Clique aqui para baixar arquivo MP3</a>
+</audio>
+
+
+</body>
+</html>

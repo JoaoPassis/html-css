@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+em html é id = em CSS é #
+em html é class = em CSS é .
+*/
+
+body {
+
+    background-color:#ac8de6;
+
+    font: light 16px Arial, sans-serif;
+}
+
+h1{
+    color: #34284B;
+    font: 2em serif;
+}
+
+h2{
+    color: #4C3B6D;
+   font-size: 1.5em;
+}
+
+h1#principal{
+
+    text-align: center;
+    background-color: #4C3B6D;
+    color: #9A76DB;
+    font-weight: bold;
+}
+
+.basico{
+
+    color: #34d564e3;
+    font-weight: bolder;
+}
+
+.intermediário {
+
+color: rgba(237, 237, 105, 0.938);
+
+
+}
+
+.avançado {
+
+color: rgb(230, 82, 82);
+}
