@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
 
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
+            background-position: center center;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - Background 
+            color > image > position > repeat > [size]
+            > attachment
+             */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            background-size: cover;
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,8 +37,8 @@
 <body>
     <main>
         <h1>Teste de Imagem e Fundo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, voluptates necessitatibus. Voluptatum neque vel, rerum voluptas ducimus cumque labore beatae accusamus laudantium nihil suscipit placeat hic inventore sunt. Maxime, corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem. Dolorum provident eveniet doloremque, omnis voluptate impedit molestias placeat, nam a sit incidunt expedita maxime dignissimos dolor quis quasi quod!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, commodi. Sapiente aperiam at deleniti maxime dolor molestiae sequi nostrum, laborum, doloribus delectus, quod excepturi voluptate ea minima facilis. Tempore, itaque!Lorem</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, voluptates necessitatibus. Voluptatum neque vel, rerum voluptas ducimus cumque labore beatae accusamus laudantium nihil suscipit placeat hic inventore sunt. Maxime, corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem. Dolorum provident eveniet doloremque, omnis voluptate impedit molestias placeat, nam a sit incidunt expedita maxime dignissimos dolor quis quasi quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque quis illo enim! Ut repellat itaque impedit culpa adipisci saepe ea quia cupiditate nihil fugit velit, odio distinctio a ipsa.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, commodi. Sapiente aperiam at deleniti maxime dolor molestiae sequi nostrum, laborum, doloribus delectus, quod excepturi voluptate ea minima facilis. Tempore, itaque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe voluptas commodi facilis, illo distinctio sequi adipisci consequuntur suscipit dolorum quibusdam, rem odio fugit sed dolores, explicabo dolorem aut provident molestiae!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odio id nihil consequuntur quidem quas omnis, aliquam qui ullam officia pariatur earum quod enim aut exercitationem aspernatur repellat laboriosam similique!</p>
     </main>
     
 </body>
