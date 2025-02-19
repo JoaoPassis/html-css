@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabela
+    </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.6em;
+            font-weight: bold;
+            padding: 10px;}
+            td , th {
+                border: 1px solid black;
+                padding: 10px;
+            }
+            col.cnome{
+               background-color: aquamarine;
+            }
+            col.cgroup{
+               background-color: yellow;
+            }
+    </style>
+</head>
+<body>
+   
+    <table>
+      <colgroup>
+      <col class="cnome">
+   <col class="cgroup" span="2">
+   
+   <col class="cprof"> 
+   </colgroup>
+        <caption>Cadastro</caption>
+         <tr>
+            <th scope="col" class="destaque">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+         </tr>
+         <tr>
+            <td class="destaque">Ana Carolina</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Jornalista</td>
+         </tr>
+         <tr>
+            <td class="destaque"> Luana Rafaela</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Biomédica</td>
+         </tr>
+         <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Analista de Dados</td>
+         </tr>
+         <tr>
+            <td>Ana Mari</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Atriz</td>
+         </tr>
+         <tr>
+            <td>Fernando Noronha</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Escritor</td>
+         </tr>
+         <tr>
+            <td>Pedro Augusto</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Pedreiro</td>
+         </tr>
+    </table>
+    
+</body>
+</html>
